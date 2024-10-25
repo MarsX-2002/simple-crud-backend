@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 
 // mongodb coonnection
-mongoose.connect("mongodb+srv://cobocoinweb3:DJujiMdiDyzI1UEg@backenddb.aih7k.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB")
+mongoose.connect("mongodb+srv://cobocoinweb3:<password>@backenddb.aih7k.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB")
     .then(
         () => {
             console.log('Connected to MongoDB')
